@@ -40,7 +40,7 @@ Everest is a blog theme for Hugo. It includes almost all features that a blog th
 
 ## License
 
-[MIT license](https://github.com/backtraxe/hugo-theme-everest/blob/master/LICENSE.md)
+[MIT license](https://github.com/backtraxe/hugo-theme-everest/blob/master/LICENSE)
 
 <br>
 

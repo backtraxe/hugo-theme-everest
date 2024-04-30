@@ -40,7 +40,7 @@ Everest 是 Hugo 的博客主题。它几乎包含了博客主题应该具备的
 
 ## 许可证
 
-[MIT 许可证](https://github.com/backtraxe/hugo-theme-everest/blob/master/LICENSE.md)
+[MIT 许可证](https://github.com/backtraxe/hugo-theme-everest/blob/master/LICENSE)
 
 <br>
 
