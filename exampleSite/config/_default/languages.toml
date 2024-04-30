@@ -2,12 +2,10 @@
 title = "Hugo Theme Everest"
 languageName = "中文"
 weight = 1
-languagedir = "ltr"
 contentdir = "content/zh"
 
 [en]
 title = "Hugo Theme Everest"
 languageName = "English"
 weight = 2
-languagedir = "ltr"
 contentdir = "content/en"

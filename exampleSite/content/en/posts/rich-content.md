@@ -8,7 +8,7 @@ enableToc: true
 enableTocContent: false
 author: Lee
 authorEmoji: 👺
-tags: 
+tags:
 - shortcodes
 - privacy
 image: images/feature2/content.png
@@ -24,7 +24,7 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 
 ## YouTube Privacy Enhanced Shortcode
 
-{{< youtube ZJthWmvUzzc >}}
+{{< youtube 0RKpf3rK57I >}}
 
 <br>
 
@@ -32,7 +32,7 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 
 ## Twitter Simple Shortcode
 
-{{< twitter_simple 1085870671291310081 >}}
+{{< twitter user="SanDiegoZoo" id="1453110110599868418" >}}
 
 <br>
 
@@ -40,4 +40,4 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 
 ## Vimeo Simple Shortcode
 
-{{< vimeo_simple 48912912 >}}
+{{< vimeo 55073825 >}}

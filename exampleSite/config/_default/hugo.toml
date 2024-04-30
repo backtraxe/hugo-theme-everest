@@ -3,7 +3,7 @@ title = "Hugo Theme Everest Demo Site"
 theme = "Everest"
 
 languageCode = "en-us"
-defaultContentLanguage = "en-US"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 hasCJKLanguage = true
 
@@ -11,18 +11,31 @@ summaryLength = 70
 buildFuture = true
 
 copyright = "&copy;{year}, All Rights Reserved"
-timeout = 10000
+timeout = "300s"
 enableEmoji = true
 paginate = 13
 rssLimit = 100
 
 enableGitInfo = false
-googleAnalytics = ""
+# googleAnalytics = ""
+
+[module]
+noProxy = 'none'
+noVendor = ''
+private = '*.*'
+proxy = 'direct'
+# replacements = ''
+vendorClosest = false
+workspace = 'off'
+
+[module.hugoVersion]
+extended = true
+min = "0.65.0"
 
 [markup.goldmark.renderer]
 hardWraps = true
 unsafe = true
-xHTML = true
+# xHTML = true
 
 [markup.highlight]
 codeFences = true
@@ -38,7 +51,6 @@ startLevel = 2
 [outputs]
 home = ["HTML", "RSS", "SearchIndex"]
 section = ["HTML", "RSS", "SearchIndex"]
-taxonomyTerm = ["HTML", "RSS", "SearchIndex"]
 taxonomy = ["HTML", "RSS", "SearchIndex"]
 
 [outputFormats.SearchIndex]

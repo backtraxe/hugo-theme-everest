@@ -38,7 +38,7 @@ other = "See Also"
 other = "WRITTEN BY"
 
 [toc-label]
-other = "What's on this Page"
+other = "Enable ToC"
 
 [counter-site-pv]
 other = "Total views"
@@ -101,19 +101,19 @@ other = "This page looks best with JavaScript enabled"
 other = "TOP POSTS"
 
 [skin-dark]
-other = "dark"
+other = "Dark"
 
 [skin-light]
-other = "light"
+other = "Light"
 
 [skin-hacker]
-other = "hacker"
+other = "Hacker"
 
 [skin-solarized]
-other = "solarized"
+other = "Solarized"
 
 [skin-kimbie]
-other = "kimbie"
+other = "Kimbie"
 
 [no-contents]
 other = "Nothing to Display"
