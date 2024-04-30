@@ -1,30 +1,65 @@
-logoText = "Zzo"
-logoType = "short" # long, short
-description = "The Zzo theme for Hugo example site."
+logoText = "Everest"
+logoType = "short"                                # long, short
+description = "The Hugo theme Everest demo site."
 custom_css = []
 custom_js = []
-useFaviconGenerator = true # https://www.favicon-generator.org/
+useFaviconGenerator = true                        # https://www.favicon-generator.org/
 meta_image = ""
 themecolor = ""
 
 themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"]
-notAllowedTypesInHome = ["contact", "talks", "about", "showcase", "publication", "presentation", "resume"]
-notAllowedTypesInHomeSidebar = ["about", "archive", "showcase", "publication", "presentation", "resume"]
-notAllowedTypesInArchive = ["about", "talks", "showcase", "publication", "presentation", "resume"]
-notAllowedTypesInHomeFeed = ["about", "archive", "contact", "talks", "showcase", "publication", "presentation", "resume", "gallery"]
+notAllowedTypesInHome = [
+  "contact",
+  "talks",
+  "about",
+  "showcase",
+  "publication",
+  "presentation",
+  "resume",
+]
+notAllowedTypesInHomeSidebar = [
+  "about",
+  "archive",
+  "showcase",
+  "publication",
+  "presentation",
+  "resume",
+]
+notAllowedTypesInArchive = [
+  "about",
+  "talks",
+  "showcase",
+  "publication",
+  "presentation",
+  "resume",
+]
+notAllowedTypesInHomeFeed = [
+  "about",
+  "archive",
+  "contact",
+  "talks",
+  "showcase",
+  "publication",
+  "presentation",
+  "resume",
+  "gallery",
+]
 
-viewportSize = "normal" # widest, wider, wide, normal, narrow
+# widest, wider, wide, normal, narrow
+viewportSize = "normal"
 enableUiAnimation = true
 hideSingleContentsWhenJSDisabled = false
 enablePinnedPosts = true
-minItemsToShowInTagCloud = 1 # Minimum items to show in tag cloud
+# Minimum items to show in tag cloud
+minItemsToShowInTagCloud = 1
 
 # appbar
 enableAppbarSearchIcon = false
 enableAppbarLangIcon = false
 
 # header
-homeHeaderType = "text" # text, img, slide, typewriter
+# text, img, slide, typewriter
+homeHeaderType = "text"
 hideHomeHeaderWhenMobile = false
 
 # menu
@@ -33,17 +68,23 @@ showMobileMenuTerms = ["tags", "categories", "series"]
 # search
 enableSearch = true
 enableSearchHighlight = true
-searchResultPosition = "main" # side, main
-searchContent = true # include content to search index
-searchDistance = 100 # fuse option
-searchThreshold = 0.4 # 0.0: exact match, 1.0: any match
+# side, main
+searchResultPosition = "main"
+# include content to search index
+searchContent = true
+# fuse option
+searchDistance = 100
+# 0.0: exact match, 1.0: any match
+searchThreshold = 0.4
 
 # body
 enableBreadcrumb = true
 enableGoToTop = true
 enableWhoami = true
-summaryShape = "classic" # card, classic, compact
-archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
+# card, classic, compact
+summaryShape = "classic"
+# "2006-01": group by month, "2006": group by year
+archiveGroupByDate = "2006"
 archivePaginate = 13
 paginateWindow = 1
 talksPaginate = 5
@@ -60,14 +101,14 @@ publicationIcon = "📚"
 typeIcon = "🎯"
 
 # whoami
-myname = "zzossig"
-email = "zzossig@gmail.com"
-whoami = "Web Developer"
+myname = "Backtraxe"
+email = "backtraxe@gmail.com"
+whoami = "C++ Backend Developer"
 bioImageUrl = ""
 useGravatar = false
-location = "Seoul, Korea"
+location = "Shenzhen, China"
 organization = "Hugo"
-link = "https://zzossig.io/ko"
+link = "https://github.com/backtraxe"
 
 # sidebar
 enableBio = true
@@ -81,7 +122,7 @@ enableListSidebarTitles = true
 enableToc = true
 hideToc = false
 tocFolding = true
-tocPosition = "inner" # inner, outer
+tocPosition = "inner"             # inner, outer
 enableTocSwitch = true
 itemsPerCategory = 5
 sidebarPosition = "right"
@@ -96,7 +137,7 @@ enableLangChange = true
 enableThemeChange = true
 
 # service
-googleTagManager = "" # GTM-XXXXXX
+googleTagManager = ""  # GTM-XXXXXX
 baiduAnalytics = ""
 enableBusuanzi = false
 busuanziSiteUV = true
@@ -104,7 +145,8 @@ busuanziSitePV = true
 busuanziPagePV = true
 
 # rss
-updatePeriod = "" # Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.
+# Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.
+updatePeriod = ""
 updateFrequency = ""
 fullContents = false
 
@@ -114,101 +156,108 @@ disqus_shortname = ""
 commento = false
 
 [telegram]
-  enable = false
-  siteId = ""
-  dataLimit = 5
+enable = false
+siteId = ""
+dataLimit = 5
 
-[gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
-  clientId = ""           # Your client ID
-  clientSecret = ""       # Your client secret
+# Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+[gitment]
+owner = ""        # Your GitHub ID
+repo = ""         # The repo to store comments
+clientId = ""     # Your client ID
+clientSecret = "" # Your client secret
 
-[utterances]       # https://utteranc.es/
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
+# https://utteranc.es/
+[utterances]
+owner = "" # Your GitHub ID
+repo = ""  # The repo to store comments
 
-[gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
-  clientId = ""           # Your client ID
-  clientSecret = ""       # Your client secret
+# Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
+[gitalk]
+owner = ""        # Your GitHub ID
+repo = ""         # The repo to store comments
+clientId = ""     # Your client ID
+clientSecret = "" # Your client secret
 
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 [valine]
-  enable = false
-  appId = '你的appId'
-  appKey = '你的appKey'
-  notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
-  verify = false # Verification code
-  avatar = 'mm' 
-  placeholder = '说点什么吧...'
-  visitor = false
+enable = false
+appId = '你的appId'
+appKey = '你的appKey'
+notify = false           # mail notifier , https://github.com/xCss/Valine/wiki
+verify = false           # Verification code
+avatar = 'mm'
+placeholder = '说点什么吧...'
+visitor = false
 
+# 畅言
 [changyan]
-  changyanAppid = ""        # Changyan app id             # 畅言
-  changyanAppkey = ""       # Changyan app key
+changyanAppid = ""  # Changyan app id
+changyanAppkey = "" # Changyan app key
 
+# 来必力
 [livere]
-  livereUID = ""            # LiveRe UID                  # 来必力
+livereUID = "" # LiveRe UID
 
 # Isso: https://posativ.org/isso/
 [isso]
-  enable = false
-  scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
-  dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
+enable = false
+scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
+dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions]
-  email = "mailto:your@email.com"
-  phone = ""
-  facebook = "http://example.org/"
-  twitter = "http://example.org/"
-  github = "https://github.com/zzossig/hugo-theme-zzo"
-  stack-overflow = ""
-  instagram = ""
-  google-plus = ""
-  youtube = ""
-  medium = ""
-  tumblr = ""
-  linkedin = ""
-  pinterest = ""
-  stack-exchange = ""
-  telegram = ""
-  steam = ""
-  weibo = ""
-  douban = ""
-  csdn = ""
-  gitlab = ""
-  mastodon = ""
-  jianshu = ""
-  zhihu = ""
-  signal = ""
-  whatsapp = ""
-  matrix = ""
-  xmpp = ""
-  dev-to = ""
-  gitea = ""
-  google-scholar = ""
+email = "mailto:your@email.com"
+phone = ""
+facebook = "http://example.org/"
+twitter = "http://example.org/"
+github = "https://github.com/backtraxe/hugo-theme-everest"
+stack-overflow = ""
+instagram = ""
+google-plus = ""
+youtube = ""
+medium = ""
+tumblr = ""
+linkedin = ""
+pinterest = ""
+stack-exchange = ""
+telegram = ""
+steam = ""
+weibo = ""
+douban = ""
+csdn = ""
+gitlab = ""
+mastodon = ""
+jianshu = ""
+zhihu = ""
+signal = ""
+whatsapp = ""
+matrix = ""
+xmpp = ""
+dev-to = ""
+gitea = ""
+google-scholar = ""
 
 [donationOptions]
-  enable = false
-  alipay = "" 
-  wechat = ""
-  paypal = ""
-  patreon = ""
+enable = false
+alipay = ""
+wechat = ""
+paypal = ""
+patreon = ""
 
 # possible share name: ["facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line", "pocket", "feedly", "hatena", "pinterest", "delicious", "google"]
 [[share]]
-  name = "facebook"
-  username = ""
+name = "facebook"
+username = ""
+
 [[share]]
-  name = "twitter"
+name = "twitter"
 
 [[footerLinks]]
-  name = ""
-  link = ""
+name = ""
+link = ""
+
 [[footerLinks]]
-  name = ""
-  link = ""
+name = ""
+link = ""
