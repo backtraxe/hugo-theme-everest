@@ -5,7 +5,7 @@
         {{ if $.Param "logo" | default true }}
             <a href="{{ .Site.BaseURL | relLangURL }}" title="{{ i18n "tooltip-home" }}" rel="home"
                class="{{ if eq ($.Param "logoType") "long" }}navbar__long-link{{ else }}navbar__logo-link{{ end }}">
-                <img src="{{ .Site.BaseURL | relLangURL }}/logo.png" alt="Home" class="navbar__logo">
+                <img src="{{ .Site.BaseURL }}/logo.png" alt="Home" class="navbar__logo">
             </a>
         {{ else }}
             &nbsp;&nbsp;
