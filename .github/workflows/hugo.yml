@@ -60,6 +60,7 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
+        # MUST rename the theme folder
         run: |
           cd ${{ github.workspace }}/..
           ln -s ${{ github.event.repository.name }} Everest

@@ -9,11 +9,16 @@ enableTocContent: false
 tocFolding: false
 tocPosition: inner
 tocLevels: ["h2", "h3", "h4"]
+author: Backtraxe
+authorEmoji:
+pinned: false
+categories:
+-
 tags:
 -
 series:
 -
-categories:
--
 image:
+libraries:
+-
 ---

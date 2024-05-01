@@ -1,8 +1,8 @@
 {
-  "option1": {
-    "loop": true
-  },
-  "option2": {
-    "loop": false
-  }
+    "option1": {
+        "loop": true
+    },
+    "option2": {
+        "loop": false
+    }
 }
