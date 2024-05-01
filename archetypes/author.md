@@ -8,11 +8,11 @@ series:
 -
 categories:
 -
-author:
-authorEmoji: 🤖
-authorImage: "/images/whoami/avatar.jpg"
-authorImageUrl: ""
-authorDesc: 
+author: Backtraxe
+authorEmoji:
+authorImage: "/images/whoami/avatar.svg"
+authorImageUrl: "/images/whoami/avatar.svg"
+authorDesc:
 socialOptions:
   email: ""
   phone: ""

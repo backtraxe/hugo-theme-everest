@@ -103,12 +103,12 @@ typeIcon = "🎯"
 
 # whoami
 myname = "Backtraxe"
-email = "backtraxe@gmail.com"
+email = "backtraxe$gmail.com"
 whoami = "C++ Backend Developer"
-bioImageUrl = ""
+bioImageUrl = "/images/whoami/avatar.svg"
 useGravatar = false
 location = "Shenzhen, China"
-organization = "Hugo"
+organization = ""
 link = "https://github.com/backtraxe"
 
 # sidebar
