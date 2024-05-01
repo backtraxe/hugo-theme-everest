@@ -1,21 +1,33 @@
+# The URL of your site.
 baseURL = "http://example.org"
+# Title of your site
 title = "Hugo Theme Everest Demo Site"
+# Name of Zzo theme folder in `themes/`.
 theme = "Everest"
 
 languageCode = "en-us"
+# Default language to use (if you setup multilingual)
 defaultContentLanguage = "en"
+# baseURL/en/, baseURL/zh/ ...
 defaultContentLanguageInSubdir = true
+# Set `true` for Chinese/Japanese/Korean languages.
 hasCJKLanguage = true
 
+# The length of a post description on a list page.
 summaryLength = 70
+# if true, we can use future date for talks page
 buildFuture = true
 
+# copyright symbol: $copy; current year: {year}
 copyright = "&copy;{year}, All Rights Reserved"
 timeout = "300s"
 enableEmoji = true
-paginate = 13
+# Number of items per page in paginated lists.
+paginate = 10
 rssLimit = 100
 
+# When true, the modified date will appear on a summary and single page.
+# Since GitHub info needs to be fetched, this feature will slow down to build depending on a page number you have
 enableGitInfo = false
 # googleAnalytics = ""
 
@@ -35,7 +47,6 @@ min = "0.65.0"
 [markup.goldmark.renderer]
 hardWraps = true
 unsafe = true
-# xHTML = true
 
 [markup.highlight]
 codeFences = true

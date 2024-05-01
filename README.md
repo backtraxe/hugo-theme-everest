@@ -28,6 +28,23 @@ Everest is a blog theme for Hugo. It includes almost all features that a blog th
 
 <br>
 
+## Installation
+
+```bash
+cd <your-hugo-site>
+git clone https://github.com/backtraxe/hugo-theme-everest.git themes/Everest
+```
+
+```bash
+cd <your-hugo-site>
+git submodule add https://github.com/backtraxe/hugo-theme-everest.git themes/Everest
+
+# update
+git submodule update --remote --merge
+```
+
+<br>
+
 ## Changelog
 
 [Change log](https://github.com/backtraxe/hugo-theme-everest/blob/master/CHANGELOG.md)
@@ -43,6 +60,7 @@ Everest is a blog theme for Hugo. It includes almost all features that a blog th
 ```bash
 # Must modify the name of the theme folder to `Everest`
 git clone https://github.com/backtraxe/hugo-theme-everest.git Everest
+cd Everest
 hugo server --source exampleSite --themesDir ../..
 ```
 

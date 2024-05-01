@@ -101,19 +101,19 @@ other = "This page looks best with JavaScript enabled"
 other = "TOP POSTS"
 
 [skin-dark]
-other = "Dark"
+other = "dark"
 
 [skin-light]
-other = "Light"
+other = "light"
 
 [skin-hacker]
-other = "Hacker"
+other = "hacker"
 
 [skin-solarized]
-other = "Solarized"
+other = "solarized"
 
 [skin-kimbie]
-other = "Kimbie"
+other = "kimbie"
 
 [no-contents]
 other = "Nothing to Display"

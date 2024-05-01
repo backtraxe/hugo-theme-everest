@@ -7,7 +7,7 @@ useFaviconGenerator = true                        # https://www.favicon-generato
 meta_image = ""
 themecolor = ""
 
-themeOptions = ["Dark", "Light", "Hacker", "Solarized", "Kimbie"]
+themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"]
 
 notAllowedTypesInHome = [
   "contact",

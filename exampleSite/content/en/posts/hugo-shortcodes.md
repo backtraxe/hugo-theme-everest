@@ -7,11 +7,14 @@ hideToc: false
 enableToc: true
 enableTocContent: false
 tocPosition: inner
+author: Backtraxe
+authorEmoji:
+pinned: false
+categories:
+- hugo
 tags:
 - hugo
 series:
-- hugo
-categories:
 - hugo
 image:
 ---

@@ -14,7 +14,7 @@
 
     <div class="footer__poweredby">
         {{ partial "footer/site-counter" . }}
-        {{ if $.Site.Copyright }}        
+        {{ if $.Site.Copyright }}
             <p class="caption">
                 {{ if $.Site.Params.copyrightOptions.enableCopyrightLink }}
                     {{ $leftString := replace (index (split $.Site.Copyright "{}") 0) "{year}" now.Year }}
@@ -32,8 +32,8 @@
         {{ end }}
 
         {{ if $.Param "showPoweredBy" }}
-            <p class="caption">Powered by <a href="https://gohugo.io/" target="_blank" rel="noreferrer">Hugo</a> and the <a href="https://github.com/zzossig/hugo-theme-zzo" target="_blank" rel="noreferrer">Zzo theme</a></p>
+            <p class="caption">Powered by <a href="https://gohugo.io/" target="_blank" rel="noreferrer">Hugo</a> and the <a href="https://github.com/backtraxe/hugo-theme-everest" target="_blank" rel="noreferrer">Everest</a></p>
         {{ end }}
-        
-    </div> 
+
+    </div>
 </footer>
