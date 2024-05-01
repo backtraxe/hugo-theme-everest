@@ -7,11 +7,12 @@
 # Visual Studio Code
 .vscode/
 
+# node.js
 node_modules/
 
-# exampleSite
+# hugo exampleSite
 exampleSite/public/
 exampleSite/resources/
 
-# hugo
+# hugo build lock
 .hugo_build.lock
