@@ -48,10 +48,7 @@ jobs:
           fetch-depth: 0
 
       - name: 0x04. Rename Repo
-        run: |
-          echo ${{ github.repository }}
-          echo ${{ github.event.repository.name }}
-        # mv ${{ github.repository_name }} Everest
+        run: mv ${{ github.event.repository.name }} Everest
 
       - name: 0x05. Setup Pages
         id: pages
