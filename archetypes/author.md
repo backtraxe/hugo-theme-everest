@@ -8,10 +8,10 @@ series:
 -
 categories:
 -
-author: Backtraxe
+author:
 authorEmoji:
-authorImage: "/images/whoami/avatar.svg"
-authorImageUrl: "/images/whoami/avatar.svg"
+authorImage:
+authorImageUrl:
 authorDesc:
 socialOptions:
   email: ""
