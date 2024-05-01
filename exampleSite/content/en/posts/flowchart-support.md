@@ -1,21 +1,28 @@
 ---
 title: "Flowchart support"
-date: 2019-11-14T12:00:06+09:00
-description: "flowchart.js is a flowchart DSL and SVG render that runs in the browser and terminal.
-Nodes and connections are defined in separately so that nodes can be reused and connections can be quickly changed."
+date: 2024-05-01T19:25:27+08:00
+description: " "
 draft: false
-enableToc: false
+hideToc: false
+enableToc: true
 enableTocContent: false
-tags:
--
-series:
--
+author: Backtraxe
+authorEmoji:
+pinned: false
 categories:
-- diagram
+- hugo
+tags:
+- hugo
+series:
+- hugo
+image:
 libraries:
 - flowchartjs
-image: images/feature1/flowchart.png
 ---
+
+flowchart.js is a flowchart DSL and SVG render that runs in the browser and terminal.
+
+Nodes and connections are defined in separately so that nodes can be reused and connections can be quickly changed.
 
 ```flowchart
 st=>start: Start|past:>http://www.google.com[blank]

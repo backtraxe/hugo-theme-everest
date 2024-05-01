@@ -1,19 +1,23 @@
 ---
-title: "JS Sequence Diagram support"
-date: 2019-11-18T12:00:06+09:00
-description: "Generates UML sequence diagrams from simple text"
+title: "Javascript sequence diagram support"
+date: 2024-05-01T19:22:34+08:00
+description: " "
 draft: false
-enableToc: false
+hideToc: false
+enableToc: true
 enableTocContent: false
-tags:
--
-series:
--
+author: Backtraxe
+authorEmoji:
+pinned: false
 categories:
-- diagram
+- hugo
+tags:
+- hugo
+series:
+- hugo
+image:
 libraries:
 - msc
-image: images/feature2/transfer.png
 ---
 
 ```msc

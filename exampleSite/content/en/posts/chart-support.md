@@ -1,25 +1,31 @@
 ---
 title: "Chart support"
-date: 2019-11-18T12:00:06+09:00
-description: "Simple yet flexible JavaScript charting for designers & developers"
+date: 2024-05-01T19:26:18+08:00
+description: " "
 draft: false
-enableToc: false
+hideToc: false
+enableToc: true
 enableTocContent: false
-tags:
--
-series:
--
+author: Backtraxe
+authorEmoji:
+pinned: false
 categories:
-- diagram
+- hugo
+tags:
+- hugo
+series:
+- hugo
+image:
 libraries:
 - chart
-image: images/feature1/graph.png
 ---
+
+Simple yet flexible JavaScript charting for designers & developers
 
 ```chart
 {
     "type": "bar",
-    "data": 
+    "data":
        {
         "labels": ["One", "Two", "Three", "Four", "Five", "Six"],
         "datasets": [{

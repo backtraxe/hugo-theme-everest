@@ -1,20 +1,26 @@
 ---
 title: "Mermaid support"
-date: 2019-11-17T12:00:06+09:00
-description: "Generate diagrams, charts, graphs or flows from markdown-like text via javascript."
+date: 2024-05-01T19:16:05+08:00
+description: " "
 draft: false
-enableToc: false
+hideToc: false
+enableToc: true
 enableTocContent: false
-tags:
-- diagram
-series:
--
+author: Backtraxe
+authorEmoji:
+pinned: false
 categories:
-- diagram
+- hugo
+tags:
+- hugo
+series:
+- hugo
+image:
 libraries:
 - mermaid
-image: images/feature2/workflow.png
 ---
+
+Generate diagrams, charts, graphs or flows from markdown-like text via javascript.
 
 ```mermaid
 graph TD;
@@ -90,5 +96,5 @@ Crash --> [*]
 pie
 "Dogs" : 386
 "Cats" : 85
-"Rats" : 15 
+"Rats" : 15
 ```
