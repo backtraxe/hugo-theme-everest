@@ -42,13 +42,18 @@ jobs:
         run: sudo snap install dart-sass
 
       - name: 0x03. Checkout
+        id: checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
 
       - name: 0x04. Rename Repo
-        run: mv ${{ github.event.repository.name }} Everest
+        run: |
+          echo ${{ github.GITHUB_WORKSPACE }}
+          echo ${{ github.event.repository.name }}
+          echo ${{ github.GITHUB_ACTION_PATH }}
+        # mv ${{ github.event.repository.name }} Everest
 
       - name: 0x05. Setup Pages
         id: pages
