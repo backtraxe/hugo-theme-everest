@@ -62,7 +62,7 @@ jobs:
           HUGO_ENV: production
         run: |
           cd ${{ github.workspace }}/..
-          mv ${{ github.event.repository.name }} Everest
+          ln -s ${{ github.event.repository.name }} Everest
           cd Everest
           hugo \
             --gc \
