@@ -50,7 +50,7 @@ jobs:
       - name: 0x04. Rename Repo
         run: |
           echo ${{ github.repository }}
-          echo ${ GITHUB_REPOSITORY_NAME }
+          echo ${{ github.repository_name }}
         # mv ${{ github.repository_name }} Everest
 
       - name: 0x05. Setup Pages
