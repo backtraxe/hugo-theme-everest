@@ -1,12 +1,17 @@
+# macOS
+.DS_Store
+
+# IntelliJ IDEA
 .idea/
 
+# Visual Studio Code
 .vscode/
 
 node_modules/
 
 # exampleSite
-exampleSite/public
-exampleSite/resources
+exampleSite/public/
+exampleSite/resources/
 
 # hugo
 .hugo_build.lock

@@ -1,6 +1,6 @@
 # Everest | Hugo Theme
 
-English | [中文](https://github.com/backtraxe/hugo-theme-everest/blob/master/README.zh-CN.md)
+English | [中文](https://github.com/backtraxe/hugo-theme-everest/blob/master/README.zh.md)
 
 ## Introduction
 
