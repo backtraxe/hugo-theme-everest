@@ -48,16 +48,16 @@ jobs:
           fetch-depth: 0
 
       - name: 0x04. Rename Repo
-        run: mv ${{ env.GITHUB_REPOSITORY#*/ }} Everest
+        run: mv ${{ github.repository_name }} Everest
 
-      - name: 0x04. Setup Pages
+      - name: 0x05. Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: 0x05. Install Node.js dependencies
+      - name: 0x06. Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
-      - name: 0x06. Build with Hugo
+      - name: 0x07. Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
@@ -70,7 +70,7 @@ jobs:
             --source exampleSite \
             --themesDir ../..
 
-      - name: 0x07. Upload artifact
+      - name: 0x08. Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./exampleSite/public
