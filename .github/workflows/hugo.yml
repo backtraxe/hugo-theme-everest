@@ -46,6 +46,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+          path: "Everest"
 
       - name: 0x04. Setup Pages
         id: pages
