@@ -1,6 +1,7 @@
 ---
 title: "MathJax support"
 date: 2024-05-01T19:29:50+08:00
+lastmod:
 description: " "
 draft: false
 hideToc: false
@@ -13,14 +14,22 @@ categories:
 - hugo
 tags:
 - hugo
+- markdown
 series:
-- hugo
+-
 image:
 libraries:
 - mathjax
 ---
 
-A JavaScript display engine for mathematics that works in all browsers.No more setup for readers. It just works.
+## Examples
 
-When $a \ne 0$, there are two solutions to $\(ax^2 + bx + c = 0\)\$ and they are
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+```markdown
+When $a \ne 0$, there are two solutions to $\(ax^2 + bx + c = 0\)$ and they are
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}.$$
+```
+
+When $a \ne 0$, there are two solutions to $\(ax^2 + bx + c = 0\)$ and they are
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}.$$
+
+<br>

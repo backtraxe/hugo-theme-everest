@@ -1,14 +1,23 @@
+# logo
 logoText = "Everest"
-logoType = "short"                                # long, short
-description = "The Hugo theme Everest demo site."
+logoType = "short"   # long, short
+
+description = "The demo site for the Everest theme in Hugo."
+
+# custom style
 custom_css = []
 custom_js = []
-useFaviconGenerator = true                        # https://www.favicon-generator.org/
+
+# site icon
+# https://www.favicon-generator.org/
+useFaviconGenerator = true
 meta_image = ""
-themecolor = ""
 
-themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"]
+# theme style
+themecolor = "solarized"
+themeOptions = ["light", "solarized", "kimbie", "dark", "hacker"]
 
+# not show in home page
 notAllowedTypesInHome = [
   "contact",
   "talks",
@@ -17,7 +26,10 @@ notAllowedTypesInHome = [
   "publication",
   "presentation",
   "resume",
+  "gallery",
 ]
+
+# not show in sidebar of home page
 notAllowedTypesInHomeSidebar = [
   "about",
   "archive",
@@ -25,15 +37,13 @@ notAllowedTypesInHomeSidebar = [
   "publication",
   "presentation",
   "resume",
+  "gallery",
 ]
-notAllowedTypesInArchive = [
-  "about",
-  "talks",
-  "showcase",
-  "publication",
-  "presentation",
-  "resume",
-]
+
+# not show in archive page
+notAllowedTypesInArchive = []
+
+# not show in rss
 notAllowedTypesInHomeFeed = [
   "about",
   "archive",
@@ -46,112 +56,153 @@ notAllowedTypesInHomeFeed = [
   "gallery",
 ]
 
-# widest, wider, wide, normal, narrow
-viewportSize = "normal"
+# site width
+viewportSize = "wide" # widest, wider, wide, normal, narrow
+
 enableUiAnimation = true
+
 hideSingleContentsWhenJSDisabled = false
+
+# pin posts
 enablePinnedPosts = true
+
 # Minimum items to show in tag cloud
 minItemsToShowInTagCloud = 1
 
-# appbar
+# top nav bar
 enableAppbarSearchIcon = false
-enableAppbarLangIcon = false
+enableAppbarLangIcon = true
+enableThemeChange = true
 
-# header
-# text, img, slide, typewriter
-homeHeaderType = "text"
+# home page header
+homeHeaderType = "slide"         # text, img, slide, typewriter
 hideHomeHeaderWhenMobile = false
 
 # menu
 showMobileMenuTerms = ["tags", "categories", "series"]
 
-# search
+##########
+# search #
+##########
 enableSearch = true
 enableSearchHighlight = true
-# side, main
-searchResultPosition = "main"
+searchResultPosition = "main" # side, main
 # include content to search index
 searchContent = true
 # fuse option
 searchDistance = 100
-# 0.0: exact match, 1.0: any match
-searchThreshold = 0.4
+searchThreshold = 0.4 # 0.0: exact match, 1.0: any match
 
-# body
-enableBreadcrumb = true
-enableGoToTop = true
-enableWhoami = true
-# card, classic, compact
-summaryShape = "classic"
-# "2006-01": group by month, "2006": group by year
-archiveGroupByDate = "2006"
-archivePaginate = 13
+########
+# body #
+########
+enableBreadcrumb = true        # top relative path
+summaryShape = "compact"       # card, classic, compact
+archiveGroupByDate = "2006-01" # "2006-01": group by month, "2006": group by year
+archivePaginate = 10
 paginateWindow = 1
 talksPaginate = 5
-talksGroupByDate = "2006"
+talksGroupByDate = "2006-01"
 pubPaginate = 20
+# icons
 writtenTimeIcon = "📅"
 modifiedTimeIcon = "📝"
-readingTimeIcon = "☕"
-authorIcon = "✍️"
+readingTimeIcon = "⏳"
+authorIcon = "✒️"
 pagePvIcon = "👀"
 pinIcon = "📌"
 tagIcon = "🏷️"
 publicationIcon = "📚"
 typeIcon = "🎯"
 
-# whoami
+##########
+# whoami #
+##########
 myname = "Backtraxe"
 email = "backtraxe$gmail.com"
-whoami = "C++ Backend Developer"
+whoami = ""
 bioImageUrl = ""
 useGravatar = false
-location = "Shenzhen, China"
+location = ""
 organization = ""
 link = "https://github.com/backtraxe"
 
-# sidebar
+###########
+# sidebar #
+###########
+enableSidebar = true
+sidebarPosition = "right"
+itemsPerCategory = 5
+# profile
 enableBio = true
 enableBioImage = true
-enableSidebar = true
-enableSidebarTags = true
-enableSidebarSeries = true
+# other type
 enableSidebarCategories = true
-enableHomeSidebarTitles = true
-enableListSidebarTitles = true
+enableSidebarSeries = true
+enableSidebarTags = true
+# type: posts
+enableHomeSidebarTitles = true   # display posts in the sidebar on the home page
+enableListSidebarTitles = false  # display posts in the sidebar on the posts page
+enableSidebarPostsByOrder = true
+# toc
 enableToc = true
 hideToc = false
 tocFolding = true
-tocPosition = "inner"             # inner, outer
+tocPosition = "inner"          # inner, outer
 enableTocSwitch = true
-itemsPerCategory = 5
-sidebarPosition = "right"
-tocLevels = ["h2", "h3", "h4"]
-enableSidebarPostsByOrder = false
+tocLevels = ["h2", "h3", "h4"] # h1 - h6
 
-# footer
+######################
+# blog share options #
+######################
+# facebook, twitter, reddit, linkedin, tumblr, line
+# pocket, feedly, hatena, pinterest, delicious, google
+# weibo, douban
+# [[share]]
+# name = ""
+# username = ""
+
+##########
+# footer #
+##########
+enableGoToTop = true
+enableWhoami = false
 showPoweredBy = true
-showFeedLinks = true
-showSocialLinks = true
-enableLangChange = true
-enableThemeChange = true
+showFeedLinks = false
+showSocialLinks = false
+enableLangChange = false
 
-# service
+################
+# footer links #
+################
+[[footerLinks]]
+name = ""
+link = ""
+
+[[footerLinks]]
+name = ""
+link = ""
+
+###########
+# service #
+###########
 googleTagManager = ""  # GTM-XXXXXX
 baiduAnalytics = ""
 enableBusuanzi = false
-busuanziSiteUV = true
-busuanziSitePV = true
-busuanziPagePV = true
+busuanziSiteUV = false
+busuanziSitePV = false
+busuanziPagePV = false
 
-# rss
-# Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.
-updatePeriod = ""
+#######
+# rss #
+#######
+updatePeriod = ""    # hourly, daily, weekly, monthly, yearly
 updateFrequency = ""
 fullContents = false
 
-# comment
+###########
+# comment #
+###########
 enableComment = true
 disqus_shortname = ""
 commento = false
@@ -208,12 +259,15 @@ enable = false
 scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
 dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
+###############################
+# sidebar whoami social icons #
+###############################
 [socialOptions]
-email = "mailto:your@email.com"
+email = ""
 phone = ""
-facebook = "http://example.org/"
-twitter = "http://example.org/"
-github = "https://github.com/backtraxe/hugo-theme-everest"
+facebook = ""
+twitter = ""
+github = ""
 stack-overflow = ""
 instagram = ""
 google-plus = ""
@@ -240,25 +294,12 @@ dev-to = ""
 gitea = ""
 google-scholar = ""
 
+############
+# donation #
+############
 [donationOptions]
 enable = false
 alipay = ""
 wechat = ""
 paypal = ""
 patreon = ""
-
-# possible share name: ["facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line", "pocket", "feedly", "hatena", "pinterest", "delicious", "google"]
-[[share]]
-name = "facebook"
-username = ""
-
-[[share]]
-name = "twitter"
-
-[[footerLinks]]
-name = ""
-link = ""
-
-[[footerLinks]]
-name = ""
-link = ""
