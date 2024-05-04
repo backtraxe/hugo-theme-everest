@@ -1,33 +1,35 @@
 .related {
-  margin: 2rem auto;
-  padding: 0.5rem;
-  width: 100%;
-  max-width: 700px;
-  position: relative;
+    margin: 2rem auto;
+    margin-top: 4rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 700px;
+    position: relative;
 
-  @include flexbox();
-  @include align-items(center);
-  @include flex-direction(column);
+    @include flexbox();
+    @include align-items(center);
+    @include flex-direction(column);
 
-  &__title {
-    font-size: 32px;
-    
-    @include themify($themes) {
-      color: themed('related-header-title-color');
+    &__title {
+        font-size: 32px;
+        padding-bottom: 10px;
+
+        @include themify($themes) {
+            color: themed('related-header-title-color');
+        }
     }
-  }
 
-  &__link {
-    font-size: 16.8px;
-    font-family: $title-font;
-    
-    @include themify($themes) {
-      color: themed('related-link-color');
+    &__link {
+        font-size: 16.8px;
+        font-family: $title-font;
+
+        @include themify($themes) {
+            color: themed('related-link-color');
+        }
     }
-  }
 
-  &-ul {
-    @include align-self(center);
-    list-style-type: disc;
-  }
+    &-ul {
+        @include align-self(center);
+        list-style-type: disc;
+    }
 }
