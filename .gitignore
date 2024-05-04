@@ -16,3 +16,6 @@ exampleSite/resources/
 
 # hugo build lock
 .hugo_build.lock
+
+# .git
+!.git/hooks/pre-commit
