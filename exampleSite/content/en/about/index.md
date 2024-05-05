@@ -19,3 +19,11 @@ Here you'll find:
 <br>
 
 ## Other excellent blogs
+
+- [旧梦](https://www.luckyzh.cn/)
+- [Wcowin's Web](https://wcowin.work/)
+- [就是这个范儿](https://www.thisfaner.com/)
+- [Code and Me](https://blog.kyomind.tw/)
+- [Blowfish](https://blowfish.page/)
+- [mack-a](https://www.v2ray-agent.com/)
+- [RayAlto's Blog](https://www.rayalto.pro/)
